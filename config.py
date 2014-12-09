@@ -1,0 +1,4 @@
+VERSION = 1.0
+DEBUG = True
+SECRET_KEY = ''
+
