@@ -1,6 +1,6 @@
-from flask import Flask
+from core import app
 from views import product_view, about_view
-app = Flask(__name__)
+from model import db
 
 app.register_blueprint(product_view, url_prefix='/product')
 app.register_blueprint(about_view, url_prefix='/about')
