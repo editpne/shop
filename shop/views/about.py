@@ -1,5 +1,5 @@
 from flask import Blueprint
-from model import Users
+from ..model import Users
 view_application = Blueprint('about', __name__, url_prefix='/about')
 
 @view_application.route('/')

@@ -1,5 +1,4 @@
-from flask import Blueprint, session, redirect, url_for
-from .about import about_index
+from flask import Blueprint
 
 view_application = Blueprint('product', __name__, url_prefix='/product')
 
