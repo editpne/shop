@@ -1,0 +1,7 @@
+backports.ssl-match-hostname==3.4.0.2
+flask==0.10.1
+flask-sqlalchemy==2.0
+jinja2==2.7.3
+mysql-python==1.2.5
+pil==1.1.7
+werkzeug==0.9.6

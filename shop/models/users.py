@@ -12,3 +12,4 @@ class Users(db.Model):
 
     def __repr__(self):
         return '<User: %s>' % self.uname
+

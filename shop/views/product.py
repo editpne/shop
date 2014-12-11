@@ -1,5 +1,4 @@
 from flask import Blueprint
-
 view_application = Blueprint('product', __name__, url_prefix='/product')
 
 @view_application.route('/')

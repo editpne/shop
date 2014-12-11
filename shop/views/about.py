@@ -1,6 +1,9 @@
 from flask import Blueprint
-from ..model import Users
-view_application = Blueprint('about', __name__, url_prefix='/about')
+from shop.models.users import Users
+__bluename__ = 'about'
+
+view_application = Blueprint(__bluename__, __name__, url_prefix='/about')
+
 
 @view_application.route('/')
 def about_index():
